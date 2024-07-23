@@ -1,12 +1,12 @@
 
 const Fundamental = ["Fundamental", "Curical", "Core"]
 
-function genfundamental(dar) {
-  return Math.floor(Math.random() * (dar + 1));
+function genfundamental() {
+  return Math.floor(Math.random() * 3);
 }
 
  function Header() {
-  const RandomELe = Fundamental[genfundamental(2)];
+  const RandomELe = Fundamental[genfundamental()];
 
   return (
     <header>

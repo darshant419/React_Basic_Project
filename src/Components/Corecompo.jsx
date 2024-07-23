@@ -1,9 +1,4 @@
 
-import PropTypes from 'prop-types';
-
-
-// li component props usage here
-
 function Corecomponent({ image, title, description }) {
     return (
       <li>
@@ -14,11 +9,6 @@ function Corecomponent({ image, title, description }) {
     );
   }
   
-  Corecomponent.propTypes = {
-    image: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-  };
-  
+
 
   export default Corecomponent;
